@@ -45,7 +45,7 @@ class AsymmetricView extends StatelessWidget {
             bottom: products[bottom],
             top: products.length - 1 >= bottom + 1
                 ? products[bottom + 1]
-                : null);
+                : products[0]);
         width += 32.0;
       } else {
         /// Odd cases
